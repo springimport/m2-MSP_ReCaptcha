@@ -77,7 +77,7 @@ define(
                  * In this way we have no data-bind attribute at all in our reCaptcha div
                  */
                 $wrapper = $('#' + this.getReCaptchaId() + '-wrapper');
-                $reCaptcha = $wrapper.find('.g-recaptcha');
+                $reCaptcha = $wrapper.find('.recaptcha');
                 $reCaptcha.attr('id', this.getReCaptchaId());
 
                 $parentForm = $wrapper.parents('form');
