@@ -131,7 +131,7 @@ define(
                 if (this.getIsVisible()) {
                     setTimeout(function () {
                         me.initCaptcha();
-                    }, 100);
+                    }, 200);
                 }
             },
 
